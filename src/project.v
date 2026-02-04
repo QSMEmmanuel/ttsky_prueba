@@ -22,7 +22,7 @@ module tt_um_sumador8b (
   assign uio_oe  = 8'b1000_0000;
 
 wire enable;
-wire[7:0];
+wire[7:0] out;
 wire cout;
 
 assign enable = ui_in[0]; //Conecto el prime enable de los inputs.
