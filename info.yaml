@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Sumador8b"      # Project title
+  title:        "sumador8b"      # Project title
   author:       "Ing. Emmanuel Flores Vargas."      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Suma 8 bits."      # One line description of what your project does
@@ -18,7 +18,7 @@ project:
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
     - "project.v"
-    - "Sumador8b.v"
+    - "sumador8b.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
